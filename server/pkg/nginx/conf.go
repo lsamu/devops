@@ -1,0 +1,6 @@
+package nginx
+
+func InitNginx()  {
+
+}
+

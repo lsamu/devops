@@ -1,0 +1,25 @@
+debug = true
+
+[jwt]
+secret = "abcdef1234567890"
+times = 4
+
+[mysql]
+host = 'localhost'
+port = 3306
+username = 'root'
+password = 'root123'
+database = 'sass_devops'
+
+[k8s]
+host = "0.0.0.0"
+port = 9410
+
+[redis]
+address ='localhost:6379'
+password = 'root123'
+db = 0
+
+[ginSession]
+name = 'certify'
+secretKey = 'sdf1231231'
